@@ -1,11 +1,13 @@
 {
   "name": "@aloysius-software-factory/ngx-custom-validator",
-  "version": "2.0.0",
+  "version": "2.0.4",
   "description": "",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "build": "tsc && copy package.json dist", 
+    "publish-npm": "npm run build && cd dist && npm publish"
   },
   "author": "",
   "license": "ISC",
