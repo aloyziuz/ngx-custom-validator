@@ -4,3 +4,4 @@ This is a library for custom, commonly used form control validators for angular.
 # Versions
 v1.x.x for Angular 13
 v2.x.x for Angular 14
+v3.x.x for Angualr 15
